@@ -1,0 +1,125 @@
+.navUp-content{
+    background-color: rgb(32, 16, 6);
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    position: fixed; 
+    z-index: 1002;
+}
+.navUp-content button{
+    background-color: rgb(102, 187, 17);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 18px;
+}
+
+.nav-content{
+    align-items: center;
+    padding: 80px 24px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.nav-icons{
+  display: flex;
+  gap: 20px;
+  backdrop-filter: blur(10px);
+  padding: 13px 20px;
+  border-radius: 15px;
+  background: rgba(51, 44, 44, 0.705);
+  color: white;
+}
+
+.nav-logo {
+  backdrop-filter: blur(10px);
+  padding: 13px 40px;
+  border-radius: 15px;
+  background: rgba(51, 44, 44, 0.705);
+  font-weight: bold;
+  color: white;
+}
+
+.menu-overlay {
+  position: fixed;
+   top: 0;
+   left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;   
+  z-index: 1000;    
+}
+
+.menu-box{
+    text-align: center;
+    background-color: white;
+    padding: 5px 5px 30px;
+    margin: 20px;
+    margin-top: 80px;
+    width: 90vw;
+    border-radius: 10px;
+    border: 1px solid white ;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 22px;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.menu-btn-arrow{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 8px;
+    color: black;
+    z-index: 1;
+}
+
+.frontCover-content {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.frontCover-head{
+  position: absolute;
+  top: 40%;   
+  left: 5%; 
+  color: white; 
+  max-width: 500px;   
+}
+
+.frontCover-head h1{
+    font-size: 40px;
+}
+
+.frontCover-bottom{
+  position: absolute;
+  top: 80%; 
+  right: 5%;  
+  color: white; 
+  max-width: 500px;
+  text-align: end; 
+}
+
+.frontCover-bottom-content a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
