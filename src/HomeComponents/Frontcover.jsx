@@ -30,6 +30,13 @@ function Frontcover() {
                     <a href=""><i className="bi bi-arrow-right"> Our latest works</i></a>
                 </div>
             </div>
+
+            <div className='frontCover-bottom-links'>
+                <p>Brand Strategy</p>
+                <p>UI/UX Design</p>
+                <p>Digital Strategy</p>
+                <p className='p-0'>Social Media</p>
+            </div>
         </div>
     )
 }

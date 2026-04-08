@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -11,7 +12,7 @@ function Menu() {
         <div className="menu-item"> <span>Blog</span><span>→</span></div>
         <div className="menu-item"> <span>Shop</span><span>→</span></div>
 
-        <button className="menu-btn"><Link to="/contact" className="menu-btn-arrow" href=""><i className="bi bi-arrow-right"></i></Link> Get in touch</button>
+        <Link to="/contact" className="menu-btn"><span className="menu-btn-arrow" href=""><i className="bi bi-arrow-right"></i></span> <span>Get in touch</span></Link>
       </div>
     </div>
   )

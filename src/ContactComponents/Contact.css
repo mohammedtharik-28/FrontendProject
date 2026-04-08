@@ -1,0 +1,101 @@
+.ContactPage-Content {
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+
+.Contact-head{
+    text-align: center;
+    margin-top: 350px;
+}
+
+.Contact-head a, .Contact-head span{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.LetsTalk-head h1, .LetsTalk-head p{
+  padding: 40px;
+  margin: 0px 30px;
+}
+
+.LetsTalk-ourDetails{
+  padding-left: 80px;
+}
+
+.LetsTalk-ourDetails p{
+  font-size: 12px;
+  border-top: 1px solid rgb(187, 182, 182);
+  padding-top: 35px;
+}
+
+.LetsTalk-ourDetails span{
+  display: block;
+  padding-bottom: 30px;
+}
+
+.LetsTalk-ourDetails i{
+  color: orangered;
+  font-size: 25px;
+}
+
+.LetsTalk-icon i{
+  color: orangered;
+  font-size: 30px;
+  padding-right: 8px;
+  font-size: 30px;
+}
+
+.LetsTalk-icon{
+  border-top: 1px solid rgb(187, 182, 182);
+  border-bottom: 1px solid rgb(187, 182, 182);
+  padding: 35px 0px;
+}
+
+.GetInTouch-card{
+  border: 1px solid rgb(187, 182, 182);
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 800px;
+}
+
+.GetInTouch-inputs input{
+  padding: 18px;
+  border-radius: 10px;
+  margin: 10px 3px;
+  background-color: rgb(244, 244, 244);
+  border: none;
+}
+
+.input-select{
+  padding: 17px;
+  border-radius: 10px;
+  margin: 10px 1px;
+  background-color: rgb(244, 244, 244);
+  border: none;
+}
+
+.GetInTouch-btn{
+  padding: 18px;
+  margin: 15px 2px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.GetInTouch-btn i{
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 14px 18px;
+  margin: 0px 8px 0px 0px;
+  font-weight: 1000;
+}
