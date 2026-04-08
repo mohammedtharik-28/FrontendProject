@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
-import NavbarUp from './HomeComponents/NavbarUp';
-import Navbar from './HomeComponents/Navbar';
-import Frontcover from './HomeComponents/Frontcover';
+import NavbarUp from './NavbarUp';
+import Navbar from './Navbar';
+import Frontcover from './Frontcover';
 
 
 function Home() {

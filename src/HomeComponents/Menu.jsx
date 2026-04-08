@@ -11,7 +11,7 @@ function Menu() {
         <div className="menu-item"> <span>Blog</span><span>→</span></div>
         <div className="menu-item"> <span>Shop</span><span>→</span></div>
 
-        <button className="menu-btn"><a className="menu-btn-arrow" href=""><i className="bi bi-arrow-right"></i></a> Get in touch</button>
+        <button className="menu-btn"><Link to="/contact" className="menu-btn-arrow" href=""><i className="bi bi-arrow-right"></i></Link> Get in touch</button>
       </div>
     </div>
   )
