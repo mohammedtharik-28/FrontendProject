@@ -16,24 +16,27 @@ function LetsTalkCard() {
                     <p>Come visit us.</p>
                     <span><i className="bi bi-buildings"></i> 63/1, UKC Nagar, Lions club near, Udumalpet - 642126</span>
                     <div className='LetsTalk-icon'>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-twitter-x"></i>
-                        <i class="bi bi-linkedin"></i>
+                        <i className="bi bi-facebook"></i>
+                        <i className="bi bi-twitter-x"></i>
+                        <i className="bi bi-linkedin"></i>
                     </div>
                 </div>
-                <div className='GetInTouch-card col-sm-12 col-md-6 mt-5'>
+                <div className='GetInTouch-card col-sm-10 col-md-5 mt-5'>
                     <p>Get in touch</p>
                     <p>Just fill out the form and our experts will be in touch right away with package and price to help you!</p>
-                    <div className='GetInTouch-inputs d-flex flex-column'>
-                        <div className='flex-md-row'>
-                            <input type="text" className='col-md-6' placeholder='Your Name' />
-                            <input type="text" className='col-md-6' placeholder='Email Address' />
+                    <div className="GetInTouch-inputs">
+
+                        <div className="input-row">
+                            <input type="text" placeholder="Your Name" />
+                            <input type="text" placeholder="Email Address" />
                         </div>
-                        <div className='flex-md-row'>
-                            <input type="text" className='' placeholder='Company Name' />
-                            <input type="text" className='' placeholder='Phone Number' />
+
+                        <div className="input-row">
+                            <input type="text" placeholder="Company Name" />
+                            <input type="text" placeholder="Phone Number" />
                         </div>
-                        <select className="form-select input-select">
+
+                        <select className="input-select">
                             <option>Choose Services</option>
                             <option>Brand Strategy</option>
                             <option>UI/UX Design</option>
@@ -42,7 +45,11 @@ function LetsTalkCard() {
                             <option>Web Development</option>
                             <option>Product Design</option>
                         </select>
-                        <textarea className='input-select pb-5' id="" placeholder='Kindly provide enough information about your project...' ></textarea>
+
+                        <textarea
+                            className="input-select textarea"
+                            placeholder="Kindly provide enough information about your project..."
+                        ></textarea>
                     </div>
                     <button className='GetInTouch-btn'><i className='bi bi-arrow-right'></i><span>Submit Request</span></button>
                 </div>

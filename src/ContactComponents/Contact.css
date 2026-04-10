@@ -22,12 +22,14 @@
 }
 
 .LetsTalk-head h1, .LetsTalk-head p{
-  padding: 60px;
-  margin: 0px 20px;
+  padding: 80px;
+  margin: 20px 35px;
+  max-width: 700px;
+
 }
 
 .LetsTalk-ourDetails{
-  padding-left: 50px;
+  padding-left: 100px;
   padding-right: 70px;
 }
 
@@ -63,26 +65,57 @@
 .GetInTouch-card{
   border: 1px solid rgb(187, 182, 182);
   border-radius: 20px;
-  padding: 25px;
-  max-width: 800px;
-  margin-left: 20px;
+  padding: 40px;
+  max-width: 700px;
+  margin-left: 70px;
 }
 
-.GetInTouch-inputs input{
+
+.GetInTouch-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+}
+
+
+.input-row input {
+  flex: 1;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  background: #eaeaea;
+  outline: none;
+}
+
+
+.input-select {
+  width: 100%;
   padding: 18px;
-  border-radius: 10px;
-  margin: 10px 3px;
-  background-color: rgb(244, 244, 244);
   border: none;
+  border-radius: 12px;
+  background: #eaeaea;
+  outline: none;
 }
 
-.input-select{
-  padding: 17px;
-  border-radius: 10px;
-  margin: 10px 1px;
-  background-color: rgb(244, 244, 244);
-  border: none;
+
+.textarea {
+  height: 120px;
+  resize: none;
 }
+
+@media (max-width: 800px) {
+  .input-row {
+    flex-direction: column;
+  }
+}
+
+
 
 .GetInTouch-btn{
   padding: 18px;
@@ -102,3 +135,33 @@
   margin: 0px 8px 0px 0px;
   font-weight: 1000;
 }
+
+.ContactEndCard-content p{
+  max-width: 250px;
+  font-size: 14px;
+}
+
+.ContactEndCard-content i{
+  padding: 5px;
+  font-size: 25px;
+}
+
+.ContactEndCard-content{
+  background-color: rgb(32, 31, 31);
+  color:white;
+  padding: 25px;
+  margin-top: 80px;
+  width: 100vw;
+}
+
+.ContactEndCard-content h5{
+  padding: 25px 0px;
+}
+
+.ContactEndCard-content a{
+  text-decoration: none;
+  color: #eaeaea;
+  font-size: 11px;
+  padding: 5px 0px;
+}
+
