@@ -12,12 +12,12 @@ function Navbar() {
                 <div className='nav-logo d-block d-xl-flex align-items-center gap-5'>
                     <h3>Genzia</h3>
                     <div className="d-none d-xl-flex gap-5">
-                        <span>Home</span>
-                        <span>Pages</span>
-                        <span>Services</span>
-                        <span>Portfolio</span>
-                        <span>Blog</span>
-                        <span>Shop</span>
+                        <Link>Home</Link>
+                        <Link>Pages</Link>
+                        <Link>Services</Link>
+                        <Link>Portfolio</Link>
+                        <Link>Blog</Link>
+                        <Link>Shop</Link>
                     </div>
                 </div>
                 <div className='nav-icons d-flex d-xl-none fs-4 m-2'>

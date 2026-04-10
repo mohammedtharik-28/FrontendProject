@@ -8,7 +8,7 @@ function LetsTalkCard() {
                 <h1 className='col-md-8'>Let's drop us a line and get your project step by step.</h1>
             </div>
             <div className='d-flex flex-md-row flex-column m-4 p-3'>
-                <div className='LetsTalk-ourDetails col-md-4 m-5'>
+                <div className='LetsTalk-ourDetails col-md-4 col-sm-12 mt-5'>
                     <p>Feel free to get in touch!</p>
                     <span><i className="bi bi-telephone"></i> +91 9788855521</span>
                     <p>How can we help you?!</p>
@@ -21,7 +21,7 @@ function LetsTalkCard() {
                         <i class="bi bi-linkedin"></i>
                     </div>
                 </div>
-                <div className='GetInTouch-card col-md-6 m-5'>
+                <div className='GetInTouch-card col-md-6 mt-5'>
                     <p>Get in touch</p>
                     <p>Just fill out the form and our experts will be in touch right away with package and price to help you!</p>
                     <div className='GetInTouch-inputs d-flex flex-column'>
