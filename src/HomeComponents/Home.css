@@ -42,6 +42,12 @@
   color: white;
 }
 
+.menu-links a{
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
 .menu-overlay {
   position: fixed;
    top: 0;

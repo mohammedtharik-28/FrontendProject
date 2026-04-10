@@ -11,7 +11,7 @@ function Navbar() {
             <div className='nav-content  d-flex justify-content-between m-0'>
                 <div className='nav-logo d-block d-xl-flex align-items-center gap-5'>
                     <h3>Genzia</h3>
-                    <div className="d-none d-xl-flex gap-5">
+                    <div className="menu-links d-none d-xl-flex gap-5">
                         <Link>Home</Link>
                         <Link>Pages</Link>
                         <Link>Services</Link>

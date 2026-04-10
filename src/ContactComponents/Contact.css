@@ -11,6 +11,7 @@
 .Contact-head{
     text-align: center;
     margin-top: 350px;
+
 }
 
 .Contact-head a, .Contact-head span{
@@ -21,12 +22,13 @@
 }
 
 .LetsTalk-head h1, .LetsTalk-head p{
-  padding: 40px;
-  margin: 0px 30px;
+  padding: 60px;
+  margin: 0px 20px;
 }
 
 .LetsTalk-ourDetails{
-  padding-left: 80px;
+  padding-left: 50px;
+  padding-right: 70px;
 }
 
 .LetsTalk-ourDetails p{
@@ -63,7 +65,7 @@
   border-radius: 20px;
   padding: 25px;
   max-width: 800px;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .GetInTouch-inputs input{
