@@ -3,6 +3,7 @@ import FrontCoverImage from '../assets/frontCover-image.jpg'
 import reel1 from '../assets/reelpic1.jpeg'
 import reel2 from '../assets/reelpic2.jpeg'
 import reel3 from '../assets/reelpic3.jpeg'
+import { Link } from "react-router-dom";
 
 function Frontcover() {
     return (
@@ -31,11 +32,11 @@ function Frontcover() {
                 </div>
             </div>
 
-            <div className='frontCover-bottom-links'>
-                <p>Brand Strategy</p>
-                <p>UI/UX Design</p>
-                <p>Digital Strategy</p>
-                <p className='p-0'>Social Media</p>
+            <div className='frontCover-bottom-links d-none d-lg-block'>
+                <Link to="#" className='hover-text'style={{borderRadius:"20px 0px 0px 0px"}}><span>Brand Strategy</span> </Link>
+                <Link to="#" className='hover-text'><span>UI/UX Design</span></Link>
+                <Link to="#" className='hover-text'><span>Digital Strategy</span></Link>
+                <Link to="#" className='hover-text' style={{borderRadius:"0px 20px 0px 0px"}}><span>Social Media</span></Link>
             </div>
         </div>
     )

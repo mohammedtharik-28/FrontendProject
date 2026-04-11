@@ -8,61 +8,63 @@
   overflow: hidden;
 }
 
-.Contact-head{
-    text-align: center;
-    margin-top: 350px;
+.Contact-head {
+  text-align: center;
+  margin-top: 350px;
 
 }
 
-.Contact-head a, .Contact-head span{
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 15px;
+.Contact-head a,
+.Contact-head span {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.LetsTalk-head h1, .LetsTalk-head p{
+.LetsTalk-head h1,
+.LetsTalk-head p {
   padding: 80px;
   margin: 20px 35px;
   max-width: 700px;
 
 }
 
-.LetsTalk-ourDetails{
+.LetsTalk-ourDetails {
   padding-left: 100px;
   padding-right: 70px;
 }
 
-.LetsTalk-ourDetails p{
+.LetsTalk-ourDetails p {
   font-size: 12px;
   border-top: 1px solid rgb(187, 182, 182);
   padding-top: 35px;
 }
 
-.LetsTalk-ourDetails span{
+.LetsTalk-ourDetails span {
   display: block;
   padding-bottom: 30px;
 }
 
-.LetsTalk-ourDetails i{
+.LetsTalk-ourDetails i {
   color: orangered;
   font-size: 25px;
 }
 
-.LetsTalk-icon i{
+.LetsTalk-icon i {
   color: orangered;
   font-size: 30px;
   padding-right: 8px;
   font-size: 30px;
 }
 
-.LetsTalk-icon{
+.LetsTalk-icon {
   border-top: 1px solid rgb(187, 182, 182);
   border-bottom: 1px solid rgb(187, 182, 182);
   padding: 35px 0px;
 }
 
-.GetInTouch-card{
+.GetInTouch-card {
   border: 1px solid rgb(187, 182, 182);
   border-radius: 20px;
   padding: 40px;
@@ -117,9 +119,9 @@
 
 
 
-.GetInTouch-btn{
+.GetInTouch-btn {
   padding: 18px;
-  margin: 15px 2px;
+  margin: 15px 0px;
   border: none;
   background-color: black;
   color: white;
@@ -127,41 +129,142 @@
   font-size: 15px;
 }
 
-.GetInTouch-btn i{
+.GetInTouch-btn :hover {
+  color: black;
+  background-color: white;
+}
+
+.GetInTouch-btn i {
   background-color: white;
   border-radius: 5px;
   color: black;
   padding: 14px 18px;
-  margin: 0px 8px 0px 0px;
+  margin: 0px 10px 0px 0px;
   font-weight: 1000;
 }
 
-.ContactEndCard-content p{
+.GetInTouch-btn i:hover {
+  background-color: black;
+  color: white;
+}
+
+.ContactEndCard-content p {
   max-width: 250px;
   font-size: 14px;
 }
 
-.ContactEndCard-content i{
+.ContactEndCard-content i {
   padding: 5px;
   font-size: 25px;
 }
 
-.ContactEndCard-content{
-  background-color: rgb(32, 31, 31);
-  color:white;
-  padding: 25px;
-  margin-top: 80px;
-  width: 100vw;
+.ContactEndCard-content i:hover {
+  color: orangered;
+  transition: 0.3s;
 }
 
-.ContactEndCard-content h5{
+.ContactEndCard-content {
+  background-color: rgb(32, 31, 31);
+  color: white;
+  padding: 50px 50px 0px 40px;
+  margin-bottom: 0;
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactEndCard-content h5 {
   padding: 25px 0px;
 }
 
-.ContactEndCard-content a{
+.footer-hover {
+  text-decoration: none;
+  max-width: 150px;
+  color: #eaeaea;
+  font-size: 11px;
+  padding: 5px 0px;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-hover:before {
+  content: "";
+  left: -65px;
+  padding-left: 45px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.footer-hover:hover::before {
+  content: "→ ";
+  opacity: 1;
+  transform: translateX(8px);
+}
+
+.ContactEndCard-content span {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.ContactEndCard-content span:hover  {
+  transform: translateX(8px);
+}
+.footer-hover-link{
   text-decoration: none;
   color: #eaeaea;
   font-size: 11px;
   padding: 5px 0px;
 }
 
+.footer-hover-link:hover{
+  text-decoration: underline;
+}
+
+.ContactEndCard-bottom {
+  margin-top: 100px;
+  border-bottom: 1px solid white;
+  padding-bottom: 50px;
+}
+
+
+.ContactEndCard-bottom p {
+  margin: 0;
+  max-width: 500px;
+}
+
+
+.ContactEndCard-bottom a {
+  text-decoration: none;
+  color: #eaeaea;
+  font-size: 12px;
+}
+
+.ContactEndCard-bottom span {
+  margin: 0 5px;
+}
+
+.Endcard-links {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .ContactEndCard-bottom {
+    text-align: center;
+  }
+}
+
+.EndCard-Text h1 {
+  font-size: 380px;
+  text-align: center;
+  max-height: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: rgb(68, 64, 64);
+}
+
+.EndCard-Text h1:hover {
+  color: white;
+  transition: 0.2s;
+}
