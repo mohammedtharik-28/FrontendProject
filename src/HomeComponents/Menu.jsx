@@ -12,7 +12,7 @@ function Menu() {
         <div className="menu-item"> <span>Blog</span><span>→</span></div>
         <div className="menu-item"> <span>Shop</span><span>→</span></div>
 
-        <Link to="/contact" className="menu-btn"><span className="menu-btn-arrow" href=""><i className="bi bi-arrow-right"></i></span> <span>Get in touch</span></Link>
+        <Link to="/contact" className="menu-btn"><span className="menu-btn-arrow"><i className="bi bi-arrow-right"></i></span> <span>Get in touch</span></Link>
       </div>
     </div>
   )

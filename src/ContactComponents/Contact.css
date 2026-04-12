@@ -111,7 +111,7 @@
   resize: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .input-row {
     flex-direction: column;
   }
@@ -147,6 +147,42 @@
   background-color: black;
   color: white;
 }
+
+
+.questionCard-contact{
+  margin-left: 70px;
+  max-width: 600px;
+}
+
+
+.questionCard-content{
+  cursor: pointer;
+  border-top:1px solid black;
+  padding: 0px;
+  margin: 25px 50px;
+}
+
+.question{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question h5{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.question i{
+  font-size: 25px;
+  color: orangered;
+}
+
+.answer{
+  font-size: 12px;
+}
+
 
 .ContactEndCard-content p {
   max-width: 250px;

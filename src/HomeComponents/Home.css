@@ -5,6 +5,7 @@
     color: white;
     position: fixed; 
     z-index: 1002;
+     overflow: visible;
 }
 .navUp-content button{
     background-color: rgb(102, 187, 17);
@@ -51,6 +52,70 @@
   display: block;
   text-decoration: none;
   color: white;
+}
+
+.menu-item-lg{
+  position: relative;
+}
+
+.menu-item-lg a:hover{
+  color: orangered;
+  transition: 0.8s;
+}
+
+.custom-dropdown{
+  position: absolute;
+  top: 200%;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 250px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.3s;
+}
+
+.menu-item-lg:hover .custom-dropdown{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.custom-dropdown a {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #c8bcbc;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.custom-dropdown a::before {
+  content: "→";
+  position: absolute;
+  left: -10px;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.custom-dropdown a:hover{
+  padding-left: 20px;
+}
+
+.custom-dropdown a:hover::before {
+  opacity: 1;
+  transform: translateX(5px);
+}
+
+
+.custom-dropdown a:last-child{
+  border-bottom: none;
 }
 
 .menu-overlay {
@@ -174,10 +239,6 @@
   margin-left: 0;
 }
 
-.reelIcons img:hover {
-  transform: scale(1.1);
-  z-index: 10;
-}
 
 
 .bi-play-fill {
@@ -301,6 +362,48 @@
   font-size: 13px;
 }
 
+.ContactAtHome-content{
+  width: 480px;
+  height: 80%;
+  position: absolute;
+  z-index: 9999;
+  background-color: white;
+  top: 13%;
+  right: 15%;
+  border-radius: 12px;
+  padding: 25px;
+  transition: 1s;
+  gap: 15px;
+  transform: translateZ(10px);
+}
+
+.x-icon{
+  padding-left: 90%;
+  font-size: 25px;
+  color: orangered;
+  cursor: pointer;
+}
+
+.ContactAtHome-card1{
+  padding: 5px 10px;
+}
+
+.ContactAtHome-card2{
+  padding: 20px;
+}
+.ContactAtHome-card2 a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgb(152, 148, 148);
+  padding: 20px 0px;
+}
+
+.ContactAtHome-card2 a:hover{
+  color: orangered;
+  border-color: 1px solid orangered;
+  transition: 0.8s;
+}
+
 .searchCard-content{
   position: absolute;
   top: 90px;
@@ -327,3 +430,133 @@
   font-size: 24px;
   margin: 3px;
 }
+
+.HomePageImage1{
+  text-align: center;
+  position: relative;
+}
+
+.HomePageImage1 img{
+  width: 70vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.text-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.HomePageImage1 h1{
+  font-size: 70px;
+  color: black;
+  opacity: 0.3;
+}
+
+.HomePageContent1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 80px;
+}
+
+.about-section {
+  position: relative;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: orangered;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+
+.circle-text {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  color: white;
+
+  animation: rotate 10s linear infinite;
+}
+
+
+.inner-circle {
+  width: 100px;
+  height: 100px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inner-circle i{
+  background-color: black;
+  padding: 0px 45px 80px 10px;
+  font-size: 40px;
+}
+
+.circle-image{
+  position: absolute;
+  top: 12%;
+  right: -30px;
+}
+
+.circle-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 15%;
+}
+
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.HomePageContent2{
+  padding: 0px 50px
+}
+
+.HomePageContent3{
+  margin: 0 auto; 
+  padding: 0;
+  max-width: 1200px;
+}
+
+.Homepage-cards{
+  height: 100%;
+  padding: 30px 20px 40px 30px;
+  max-width: 280px;
+  margin: 0 auto;
+  text-align: left;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

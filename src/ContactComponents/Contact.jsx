@@ -6,6 +6,7 @@ import Navbar from '../HomeComponents/Navbar'
 import LetsTalkCard from './LetsTalkCard'
 import MapLocation from './MapLocation'
 import ContactEndCard from './ContactEndCard'
+import QuestionCard from './QuestionCard'
 
 
 function Contact() {
@@ -16,6 +17,7 @@ function Contact() {
     <ContactFrontPage/>
     <LetsTalkCard/>
     <MapLocation/>
+    <QuestionCard/>
     <ContactEndCard/>
     </>
   )

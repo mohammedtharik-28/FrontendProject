@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Frontcover from './Frontcover';
 import AboutUs from './AboutUs';
 import ContactEndCard from '../ContactComponents/ContactEndCard';
+import HomePageContent from './HomePageContent';
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
         <Navbar/>
         <Frontcover/>
         <AboutUs/>
+        <HomePageContent/>
         <ContactEndCard/>
     </>
   )
