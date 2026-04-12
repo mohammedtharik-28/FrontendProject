@@ -3,7 +3,6 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  position: relative;
   color: white;
   overflow: hidden;
 }
@@ -20,6 +19,11 @@
   text-decoration: none;
   font-weight: 400;
   font-size: 15px;
+}
+
+.Contact-head a:hover{
+  color: orangered;
+  transition: 0.5s;
 }
 
 .LetsTalk-head h1,
