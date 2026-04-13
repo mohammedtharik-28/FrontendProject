@@ -1,16 +1,47 @@
-# React + Vite
+# Frontend UI Task - Genzia Theme Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+This project is a frontend implementation of selected pages (Home & contact) from the Genzia Creative Portfolio and Digital Agency theme.
 
-Currently, two official plugins are available:
+## 🔗 Reference Website
+https://preview.themeforest.net/item/genzia-creative-portfolio-and-digital-agency-wordpress-theme/full_screen_preview/61997836
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📄 Pages Implemented
+- Home Page
+- Contact Page
 
-## React Compiler
+## 🚀 Tech Stack
+- React.js
+- Bootstrap 
+- HTML5
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🧩 Component Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## HomeComponents
+- Home.jsx
+- Home.css
+- NavbarUp.jsx
+- Navbar.jsx
+- Menu.jsx
+- SearchCard.jsx
+- ContactAtHome.jsx
+- FrontCover.jsx
+- HomePageContent.jsx
+- AboutUs.jsx
+
+## ContactComponents
+
+- Contact.jsx
+- Contact.css
+- ContactFrontPage.jsx
+- LetsTalkCard.jsx
+- QuestionCard.jsx
+- ContactEndCard.jsx
+
+## Main Components
+
+- Main.jsx
+- App.jsx
+- index.css
